@@ -1,5 +1,6 @@
 class Dog
   @@all = []
+  
   def initialize(name)
     @name = name
     save
@@ -24,7 +25,7 @@ class Dog
   end
   
   def self.clear_all
-    @@all.clear()
+    @@all.clear
   end
   
 end
